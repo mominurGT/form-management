@@ -63,6 +63,12 @@ const breadcrumbs: BreadcrumbItem[] = [
                                                 title="Edit">
                                                 ✏️ <span>Edit</span>
                                             </a>
+
+                                            <a :href="`/form-builder/${form.id}`"
+                                                class="text-green-600 dark:text-green-400 hover:underline text-sm flex items-center gap-1"
+                                                title="Edit">
+                                                📋 <span>Form Builder</span>
+                                            </a>
                                         </div>
                                     </td>
                                 </tr>

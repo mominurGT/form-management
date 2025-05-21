@@ -29,8 +29,7 @@ Route::middleware(['auth', 'verified'])->group(function () {
     Route::put('/form-edit/{id}', [FormConfigurationController::class, 'updateForm'])->name('form.update');
 
     Route::get('/form-builder/{id}', [FormConfigurationController::class, 'edit'])->name('form-builder');
-Route::put('/form-builder/{id}', [FormConfigurationController::class, 'update']);
-
+    Route::put('/form-builder/{id}', [FormConfigurationController::class, 'update']);
 });
 
 /*
