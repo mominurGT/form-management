@@ -54,9 +54,9 @@ import { Head, Link } from '@inertiajs/vue3';
                                 </span>
                             </span>
                             <span>
-                                Read the
+                                Project Setup
                                 <a
-                                    href="https://laravel.com/docs"
+                                    href="https://github.com/mominurGT/form-management/blob/main/README.md"
                                     target="_blank"
                                     class="ml-1 inline-flex items-center space-x-1 font-medium text-[#f53003] underline underline-offset-4 dark:text-[#FF4433]"
                                 >
@@ -85,13 +85,13 @@ import { Head, Link } from '@inertiajs/vue3';
                                 </span>
                             </span>
                             <span>
-                                Watch video tutorials at
+                                Watch video
                                 <a
                                     href="https://laracasts.com"
                                     target="_blank"
                                     class="ml-1 inline-flex items-center space-x-1 font-medium text-[#f53003] underline underline-offset-4 dark:text-[#FF4433]"
                                 >
-                                    <span>Laracasts</span>
+                                    <span>tutorials</span>
                                     <svg
                                         width="{10}"
                                         height="{11}"
