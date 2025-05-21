@@ -11,6 +11,7 @@ Ensure your development environment includes the following:
 * Node.js >= 20.17.0
 * NPM >= 10.8.2
 * MySQL >= 8
+* Laravel Verion >= 12.14.1
 * Git
 
 
@@ -92,7 +93,7 @@ Visit the application at: [http://127.0.0.1:8000](http://127.0.0.1:8000)
 ### Additional Notes
 
 * The Project User Manual video is available in the project's public folder.
-http://localhost:8000/user-manual.webm
+https://drive.google.com/file/d/1jj3qx3iLcHWMWz-eU18HilRF31TWKXma/view?usp=sharing
 
 
 * **When running the database seeder**, two default admin users and two form configurations are created.

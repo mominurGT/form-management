@@ -87,7 +87,7 @@ import { Head, Link } from '@inertiajs/vue3';
                             <span>
                                 Watch video
                                 <a
-                                    href="https://laracasts.com"
+                                    href="https://drive.google.com/file/d/1jj3qx3iLcHWMWz-eU18HilRF31TWKXma/view?usp=sharing"
                                     target="_blank"
                                     class="ml-1 inline-flex items-center space-x-1 font-medium text-[#f53003] underline underline-offset-4 dark:text-[#FF4433]"
                                 >
