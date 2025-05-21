@@ -1,0 +1,187 @@
+{
+  "title": "Test Form Two",
+  "method": "POST",
+  "action": "/submit",
+  "submitText": "Submit",
+  "fields": [
+    {
+      "name": "full_name",
+      "label": "Full Name",
+      "type": "text",
+      "placeholder": "John Doe",
+      "required": true,
+      "minLength": 3,
+      "maxLength": 50,
+      "autocomplete": "name"
+    },
+    {
+      "name": "email",
+      "label": "Email Address",
+      "type": "email",
+      "placeholder": "you@example.com",
+      "required": true,
+      "autocomplete": "email"
+    },
+    {
+      "name": "password",
+      "label": "Password",
+      "type": "password",
+      "placeholder": "••••••••",
+      "required": true,
+      "minLength": 8,
+      "autocomplete": "new-password"
+    },
+    {
+      "name": "age",
+      "label": "Age",
+      "type": "number",
+      "placeholder": "30",
+      "required": false,
+      "min": 0,
+      "max": 120
+    },
+    {
+      "name": "dob",
+      "label": "Date of Birth",
+      "type": "date",
+      "required": true,
+      "min": "1900-01-01",
+      "max": "2025-12-31"
+    },
+    {
+      "name": "bio",
+      "label": "Short Bio",
+      "type": "textarea",
+      "placeholder": "Tell us something about yourself...",
+      "required": false,
+      "maxLength": 300
+    },
+    {
+      "name": "phone",
+      "label": "Phone Number",
+      "type": "tel",
+      "placeholder": "+1234567890",
+      "required": false,
+      "pattern": "^\\+?[0-9]{7,15}$"
+    },
+    {
+      "name": "website",
+      "label": "Website",
+      "type": "url",
+      "placeholder": "https://example.com",
+      "required": false
+    },
+    {
+      "name": "favorite_color",
+      "label": "Favorite Color",
+      "type": "color",
+      "required": false
+    },
+    {
+      "name": "satisfaction",
+      "label": "Satisfaction Level",
+      "type": "range",
+      "required": false,
+      "min": 1,
+      "max": 10,
+      "step": 1
+    },
+    {
+      "name": "resume",
+      "label": "Upload Resume",
+      "type": "file",
+      "required": false,
+      "accept": ".pdf,.doc,.docx"
+    },
+    {
+      "name": "meeting_time",
+      "label": "Meeting Date & Time",
+      "type": "datetime-local",
+      "required": false
+    },
+    {
+      "name": "birth_month",
+      "label": "Birth Month",
+      "type": "month",
+      "required": false
+    },
+    {
+      "name": "preferred_week",
+      "label": "Preferred Week",
+      "type": "week",
+      "required": false
+    },
+    {
+      "name": "wake_up_time",
+      "label": "Wake-up Time",
+      "type": "time",
+      "required": false
+    },
+    {
+      "name": "search_query",
+      "label": "Search",
+      "type": "search",
+      "placeholder": "Type to search...",
+      "required": false
+    },
+    {
+      "name": "subscribe",
+      "label": "Subscribe to newsletter",
+      "type": "checkbox",
+      "required": false
+    },
+    {
+      "name": "gender",
+      "label": "Gender",
+      "type": "radio",
+      "required": true,
+      "options": [
+        {
+          "label": "Male",
+          "value": "male"
+        },
+        {
+          "label": "Female",
+          "value": "female"
+        },
+        {
+          "label": "Other",
+          "value": "other"
+        }
+      ]
+    },
+    {
+      "name": "country",
+      "label": "Country",
+      "type": "select",
+      "required": true,
+      "options": [
+        {
+          "label": "United States",
+          "value": "us"
+        },
+        {
+          "label": "India",
+          "value": "in"
+        },
+        {
+          "label": "Bangladesh",
+          "value": "bd"
+        }
+      ]
+    },
+    {
+      "name": "avatar",
+      "label": "Upload Avatar",
+      "type": "image",
+      "required": false,
+      "src": "upload-icon.png",
+      "alt": "Upload your avatar"
+    },
+    {
+      "name": "referrer_id",
+      "type": "hidden",
+      "value": "12345"
+    }
+  ]
+}

@@ -1,0 +1,138 @@
+{
+  "title": "Test Form Three",
+  "method": "POST",
+  "action": "/submit",
+  "submitText": "Register Employee",
+  "fields": [
+    {
+      "name": "employee_id",
+      "label": "Employee ID",
+      "type": "text",
+      "placeholder": "EMP123456",
+      "required": true,
+      "pattern": "^[A-Z]{3}[0-9]{6}$"
+    },
+    {
+      "name": "first_name",
+      "label": "First Name",
+      "type": "text",
+      "placeholder": "John",
+      "required": true,
+      "minLength": 2
+    },
+    {
+      "name": "last_name",
+      "label": "Last Name",
+      "type": "text",
+      "placeholder": "Doe",
+      "required": true,
+      "minLength": 2
+    },
+    {
+      "name": "email",
+      "label": "Email Address",
+      "type": "email",
+      "placeholder": "john.doe@example.com",
+      "required": true
+    },
+    {
+      "name": "phone",
+      "label": "Phone Number",
+      "type": "tel",
+      "placeholder": "+880123456789",
+      "required": true,
+      "pattern": "^\\+?[0-9]{10,15}$"
+    },
+    {
+      "name": "dob",
+      "label": "Date of Birth",
+      "type": "date",
+      "required": true
+    },
+    {
+      "name": "gender",
+      "label": "Gender",
+      "type": "radio",
+      "required": true,
+      "options": [
+        { "label": "Male", "value": "male" },
+        { "label": "Female", "value": "female" },
+        { "label": "Other", "value": "other" }
+      ]
+    },
+    {
+      "name": "national_id",
+      "label": "National ID",
+      "type": "text",
+      "placeholder": "1234567890",
+      "required": true,
+      "pattern": "^[0-9]{10,17}$"
+    },
+    {
+      "name": "department",
+      "label": "Department",
+      "type": "select",
+      "required": true,
+      "options": [
+        { "label": "Human Resources", "value": "hr" },
+        { "label": "Engineering", "value": "engineering" },
+        { "label": "Sales", "value": "sales" },
+        { "label": "Marketing", "value": "marketing" },
+        { "label": "Finance", "value": "finance" }
+      ]
+    },
+    {
+      "name": "designation",
+      "label": "Designation",
+      "type": "text",
+      "placeholder": "Software Engineer",
+      "required": true
+    },
+    {
+      "name": "joining_date",
+      "label": "Joining Date",
+      "type": "date",
+      "required": true
+    },
+    {
+      "name": "employment_type",
+      "label": "Employment Type",
+      "type": "select",
+      "required": true,
+      "options": [
+        { "label": "Full-Time", "value": "full_time" },
+        { "label": "Part-Time", "value": "part_time" },
+        { "label": "Intern", "value": "intern" },
+        { "label": "Contract", "value": "contract" }
+      ]
+    },
+    {
+      "name": "address",
+      "label": "Present Address",
+      "type": "textarea",
+      "placeholder": "Enter current address",
+      "required": true
+    },
+    {
+      "name": "photo",
+      "label": "Profile Photo",
+      "type": "file",
+      "required": false,
+      "accept": "image/png,image/jpeg"
+    },
+    {
+      "name": "resume",
+      "label": "Upload Resume",
+      "type": "file",
+      "required": false,
+      "accept": ".pdf,.doc,.docx"
+    },
+    {
+      "name": "notes",
+      "label": "Additional Notes",
+      "type": "textarea",
+      "placeholder": "Any additional info",
+      "required": false
+    }
+  ]
+}
